@@ -5,6 +5,7 @@ from setuptools import setup
 
 REQUIRED_PACKAGES = [
     # Required for apache-beam with PY3
+    'PyYAML>=6.0.0',
     'avro-python3',
     'apache-beam',
     'pillow',
